@@ -11,7 +11,7 @@ public class StudentService {
     @Autowired
     private StudentRepo studentRepo;
 
-    public  Student saveDetails(Student student){
+    public Student saveDetails(Student student){
         return studentRepo.save(student);
     }
 }

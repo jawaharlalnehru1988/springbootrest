@@ -23,4 +23,7 @@ public class Student {
     @Column(name="NAME")
     private String name;
 
+    @Column(name="AGE")
+    private int age;
+
 }
